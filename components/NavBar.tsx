@@ -1,5 +1,6 @@
 import { Container, Flex, Heading, Link } from "@chakra-ui/react"
 import { ConnectWallet } from "@thirdweb-dev/react"
+import SocialLogin from "@biconomy/web3-auth"
 
 export default function NavBar() {
   return (

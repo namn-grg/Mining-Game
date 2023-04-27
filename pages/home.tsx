@@ -18,8 +18,8 @@ import { Text, Box, Card, Container, Flex, Heading, SimpleGrid, Spinner, Stack, 
 import SmartAccount from "@biconomy/smart-account"
 
 const Home: NextPage = () => {
-  //   const address = useAddress()
-  const address = SmartAccount.address
+  const address = useAddress()
+  //   const address = SmartAccount.address
 
   const { contract: farmercontract } = useContract(FARMER_ADDRESS)
   const { contract: toolsContract } = useContract(TOOLS_ADDRESS)
